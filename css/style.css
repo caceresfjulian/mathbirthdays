@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.birthday-card {
+  font-family: "Gochi Hand", cursive;
+  color: #fff;
+  padding: 35px;
+  padding-bottom: 110px;
+  margin: 0 auto;
+  width: 800px;
+  background-color: rgb(31, 72, 34);
+  border: 15px solid rgb(173, 173, 167);
+  border-radius: 10px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.birthday-card input[type="number"],
+.birthday-card select {
+  font-family: "Quicksand", sans-serif;
+}
+
+.birthday-card label {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.birthday-card .btn {
+  width: 200px;
+  align-self: center;
+  margin-top: 25px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.descriptive-card {
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px 20px;
+  width: 500px;
+  text-align: center;
+  border: 1.5px solid #000;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+#box2,
+#box3 {
+  display: none;
+}
+
+.result {
+  font-family: "Quicksand", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .birthday-card {
+    width: 90%;
+  }
+  .descriptive-card {
+    width: 65%;
+  }
+}
+
+@media (max-width: 767px) {
+  .birthday-card {
+    width: 100%;
+  }
+  .descriptive-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 580px){
+
+}
